@@ -9,6 +9,6 @@ public class ArticleController {
     @GetMapping("/article/new")
     public String ArticleForm() {
 
-        return "temp";
+        return "articles/new";
     }
 }
